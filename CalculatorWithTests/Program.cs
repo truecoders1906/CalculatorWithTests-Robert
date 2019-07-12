@@ -4,8 +4,10 @@ namespace CalculatorWithTests
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Calculator myCalculator = new Calculator();
+
             Console.WriteLine("Hello, world!");
         }
     }
